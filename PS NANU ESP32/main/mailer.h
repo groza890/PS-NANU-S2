@@ -13,8 +13,8 @@ namespace Mailer {
     // 1) Setup server SMTP
     session.server.host_name = "smtp.gmail.com";
     session.server.port      = 465;
-    session.login.email      = "catalingroza89@gmail.com";      // -> înlocuiește
-    session.login.password   = "dgno bwua dtzu tzau"; // -> înlocuiește
+    session.login.email      = "............";      // -> înlocuiește
+    session.login.password   = "........."; // -> înlocuiește
     session.login.user_domain= "";
 
     // 2) Permite reconectarea automată la Wi-Fi
@@ -46,7 +46,7 @@ namespace Mailer {
   mail.subject        = "⚠️ ALERTĂ INUNDAȚIE!";
   mail.text.charSet   = "utf-8";
   mail.text.content   = msg;
-  mail.addRecipient("Destinatar", "corneliu.groza@student.upt.ro");
+  mail.addRecipient("Destinatar", "..........................");
 
   // 3) Trimite
   if (!MailClient.sendMail(&smtp, &mail)) {
