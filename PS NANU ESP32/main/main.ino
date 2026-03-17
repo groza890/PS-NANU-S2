@@ -23,8 +23,8 @@ unsigned long lastDebounce = 0;   // momentul ultimei schimbări detectate
 const unsigned long debounceDelay = 50; // ms pentru stabilizare
 
 // ======== Wi-Fi ========
-const char* SSID = "schwarzkopf";
-const char* PASS = "muiecionca100%";
+const char* SSID = "..........";
+const char* PASS = "..........";
 
 // ======== Server ========
 AsyncWebServer server(80);
